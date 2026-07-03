@@ -4,7 +4,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: Arial;
+	font-family: var(--font-poppins), sans-serif;
 	overflow-x: hidden;
 
 	--blue: #0b23f4;
@@ -95,7 +95,6 @@ body {
 .input-label {
 	color: var(--gray);
 	font-size: 14px;
-	font-weight: 600;
 	margin-bottom: 8px;
 }
 
