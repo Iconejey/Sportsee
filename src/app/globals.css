@@ -1,5 +1,12 @@
 html {
 	height: 100%;
+
+	--blue: #0b23f4;
+	--red: #f4320b;
+	--light-blue-bg: #f2f3ff;
+	--white: #ffffff;
+	--black: #111111;
+	--gray: #707070;
 }
 
 * {
