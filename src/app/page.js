@@ -98,7 +98,7 @@ export default function Home() {
 			{/* Left Panel */}
 			<section className="left-panel">
 				<header className="top-left-header-logo">
-					<img src="/logo.png" alt="Sportsee Logo" className="logo-image" />
+					<img src="/logo.svg" alt="Sportsee Logo" className="logo-image" />
 					<h1 className="brand-title">SPORTSEE</h1>
 				</header>
 

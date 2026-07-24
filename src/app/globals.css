@@ -29,7 +29,7 @@ body {
 	overflow: hidden;
 
 	/* Left panel */
-	.left-panel {
+	& .left-panel {
 		flex: 0.7;
 		background-color: var(--light-blue-bg);
 		position: relative;
@@ -39,7 +39,7 @@ body {
 		padding: 40px;
 
 		/* Top-right logo and title in Left panel */
-		.top-left-header-logo {
+		& .top-left-header-logo {
 			position: absolute;
 			top: 40px;
 			left: 40px;
@@ -47,12 +47,12 @@ body {
 			align-items: center;
 			gap: 12px;
 
-			.logo-image {
-				width: 45px;
+			& .logo-image {
+				width: 24px;
 				height: auto;
 			}
 
-			.brand-title {
+			& .brand-title {
 				font-size: 24px;
 				font-weight: 800;
 				color: var(--blue);
@@ -61,14 +61,14 @@ body {
 		}
 
 		/* Form container */
-		.form-card {
+		& .form-card {
 			background-color: var(--white);
 			padding: 50px 45px;
 			border-radius: 16px;
 			width: 100%;
 			max-width: 460px;
 
-			.form-h2 {
+			& .form-h2 {
 				color: var(--blue);
 				font-size: 32px;
 				font-weight: 700;
@@ -76,26 +76,26 @@ body {
 				margin-bottom: 3rem;
 			}
 
-			.form-h3 {
+			& .form-h3 {
 				color: var(--black);
 				font-size: 26px;
 				font-weight: 500;
 				margin-bottom: 30px;
 			}
 
-			.input-group {
+			& .input-group {
 				display: flex;
 				flex-direction: column;
 				margin-bottom: 24px;
 
-				.input-label {
+				& .input-label {
 					color: var(--gray);
 					font-size: 14px;
 					font-weight: 600;
 					margin-bottom: 8px;
 				}
 
-				.input-field {
+				& .input-field {
 					padding: 1.2rem 1rem;
 					border: 1px solid var(--gray);
 					border-radius: 8px;
@@ -112,14 +112,14 @@ body {
 				}
 			}
 
-			.error-message {
+			& .error-message {
 				color: var(--red);
 				font-size: 14px;
 				font-weight: 500;
 				margin-bottom: 20px;
 			}
 
-			.signin-button {
+			& .signin-button {
 				width: 100%;
 				padding: 16px;
 				background-color: var(--blue);
@@ -148,7 +148,7 @@ body {
 				}
 			}
 
-			.forgot-password {
+			& .forgot-password {
 				display: block;
 				text-align: left;
 				color: var(--black);
@@ -165,16 +165,16 @@ body {
 	}
 
 	/* Right panel */
-	.right-panel {
+	& .right-panel {
 		flex: 1;
-		background-image: url('/runners.png');
+		background-image: url('/runners.jpg');
 		background-size: cover;
 		background-position: center;
 		position: relative;
 		display: flex;
 
 		/* Round white div at bottom right of right panel */
-		.round-bubble {
+		& .round-bubble {
 			position: absolute;
 			bottom: 40px;
 			right: 40px;
@@ -188,9 +188,9 @@ body {
 			text-align: center;
 			box-sizing: border-box;
 
-			.bubble-text {
+			& .bubble-text {
 				color: var(--blue);
-				font-size: 14px;
+				font-size: 12px;
 			}
 		}
 	}
